@@ -1,0 +1,92 @@
+body {
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    background-color: #0084ff;   
+}
+
+h1 {
+    margin-bottom: 40px
+}
+
+label {
+    color: #333
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+#navbar{
+    background:#333;
+    color:#fff;
+    overflow: auto;
+}
+
+#navbar a{
+    color:#fff
+}
+
+#navbar h1{
+    float:left;
+    padding-top:20px;
+}
+
+#navbar ul{
+    list-style:none;
+    float:right;
+}
+
+#navbar ul li {
+ float:left;
+}
+
+#navbar ul li a{
+    display:block;
+    padding:20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+ #navbar ul li a.current{
+    background:#444;
+    color:#f7c08a;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+

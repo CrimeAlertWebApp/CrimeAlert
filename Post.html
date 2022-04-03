@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post a crime</title>
+<!-- Libraries CSS Files -->
+<link href="Post.css" rel="stylesheet">
+<link href="http://fonts.cdnfonts.com/css/berlin-sans-fb-demi" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Crime Alert Web App</a></h1>
+                <ul>
+                    <li><a class="current" href="Home.html">Home</a></li>
+                    <li><a href="sign.html">Log out</a></li>
+                    <li><a href="Post.html">Post a crime</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container"> <div class=" text-center mt-5 ">
+        <h1>Report a Crime</h1>
+    </div>
+    <div class="row ">
+        <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+                <div class="card-body bg-light">
+                    <div class="container">
+                        <form id="contact-form" role="form">
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_name">Name *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your Full name *" required="required" data-error="Name is required."> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_lastname">Date *</label> <input id="form_lastname" type="Date" name="surname" class="form-control" placeholder="Please enter the date *" required="required" data-error="Date is required."> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_need">Please specify the crime *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                <option value="" selected disabled>--Select type of crime--</option>
+                                                <option>Theft</option>
+                                                <option>Robbery</option>
+                                                <option>Murder</option>
+                                                <option>Other</option>
+                                            </select> </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group"> <label for="form_name">Time *</label> <input id="form_name" type="time" name="name" class="form-control" placeholder="Time of crime *" required="required" data-error="please enter the time when the crime happened"> </div>
+                                        </div>
+                                        <div class="form-group"> <label for="form_need">Location *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify the location of crime.">
+                                            <option value="" selected disabled>--Select location of crime--</option>
+                                            <option>Kolkata</option>
+                                            <option>Delhi</option>
+                                            <option>Punjab</option>
+                                            <option>Aurangabad</option>
+                                            <option>Chennai</option>
+                                            <option>Mumbai</option>
+                                            <option>Purulia</option>
+                                            <option>Guwahati</option>
+                                            <option>Mednipoor</option>
+                                            <option>Jhargram</option>
+                                            <option>Ranchi</option>
+                                            <option>Bangalore</option>
+                                            <option>Digha</option>
+                                            <option>Raorkela</option>
+                                            <option>Dhanbad</option>
+                                            <option>Panaji</option>
+                                            <option>Hyderabad</option>
+                                            <option>Secendrabad</option>
+                                            <option>Tiljala</option>
+                                            <option>Naihati</option>
+                                            <option>Kharagpur</option>
+                                            <option>Jammu</option>
+                                            <option>Kashmir</option>
+                                            <option>Lucknow</option>
+                                        </select> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> <label for="form_message">Crime Description *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Description of the crime" rows="4"></textarea> </div>
+                                    </div>
+                                    <button><a href="Home.html">Post</a></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+    </html>
