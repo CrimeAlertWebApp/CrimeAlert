@@ -19,8 +19,6 @@ Video: https://user-images.githubusercontent.com/102902103/161425281-57eb9292-34
 
 Some screenshots - 
 
-![landing page](https://user-images.githubusercontent.com/102902103/161425178-f96a1c81-7ecc-4b36-a35d-f878d9a48471.PNG)
-
 ![signin](https://user-images.githubusercontent.com/102902103/161425197-0ad31173-58b2-4e99-a2f7-3634b61af7a2.PNG)
 
 ![login](https://user-images.githubusercontent.com/102902103/161425212-8e28a349-054b-4038-a260-955d23c63a15.PNG)
